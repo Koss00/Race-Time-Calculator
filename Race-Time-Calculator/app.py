@@ -82,7 +82,7 @@ with introduction.container():
 
 # uploaded_file is not None and
 try:
-    if st.sidebar.button("Generate"):
+    if st.sidebar.button("Start"):
         introduction.empty()
         st.title("Calculations")
 
